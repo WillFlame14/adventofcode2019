@@ -2,8 +2,6 @@
 
 const fs = require('fs');
 
-
-
 function main() {
 	const grid = [];
 	const lines = fs.readFileSync('input.txt').toString().split('\r\n');

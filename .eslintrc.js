@@ -22,6 +22,7 @@ module.exports = {
         "indent" : "off",
         "max-len": ["warn", { "code": 200 }],
         "no-confusing-arrow": "error",
+        "no-constant-condition": ["error", { "checkLoops": false }],
         "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
         "no-shadow": "error",
         "no-trailing-spaces": "error",
